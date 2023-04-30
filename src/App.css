@@ -1,0 +1,51 @@
+.app {
+  background-color: #b284be;
+  color: #fff;
+  width: 50%;
+  margin: 1em auto;
+  border-radius: 10px;
+}
+
+input.form-control {
+  background: transparent;
+  border-width: 0 0 2px 0;
+  border-color: #fff;
+  color: #fff;
+}
+
+input.form-control::placeholder {
+  color: #fff;
+}
+
+input.form-control:focus {
+  outline: 0;
+  border: none;
+
+}
+
+.btn-success {
+  background: #fff !important;
+  border: none !important;
+  color: #000 !important;
+}
+
+span {
+  color: #fff;
+}
+
+.card {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.btn-outline-success {
+  background: #fff !important;
+  border: none !important;
+  color: rgb(19, 155, 96) !important;
+}
+
+.btn-outline-danger {
+  background: #fff !important;
+  border: none !important;
+  color: rgb(194, 28, 28) !important;
+}
